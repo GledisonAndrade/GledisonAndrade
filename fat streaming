@@ -1,0 +1,6 @@
+pasta globals.php
+<?php
+session_start();
+$BASE_URL= "http://".$_SERVER["HTTP_HOST"]. dirname(&$_SERVER ["REQUEST_URI"]."?")."/";
+// echo &BASE_URL; // Para verificando o valor da URL gerada...
+?>
